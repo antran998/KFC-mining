@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/img-new/favicon.png">
+        <!-- App title -->
+        <title>KFC</title>
+
+        <!-- App css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/icons.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+        
+
+        <link href="assets/FA-5/css/fontawesome.min.css" rel="stylesheet">
+        <link href="assets/FA-5/css/brands.min.css" rel="stylesheet">
+        <link href="assets/FA-5/css/solid.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css">
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/daterangepicker.min.css">
+
+        <script src="assets/js/modernizr.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/fix.css" />
+
+    </head>
+
+
+    <body>
+        <div class="loader--bg">
+            <div class="lds-ripple"><div></div><div></div></div>
+            <img src="assets/img-new/loader.png">
+        </div>
+
+        <div id="particles-js" ></div>
+
+        <!-- Navigation Bar-->
+        <header id="topnav">
+            <div class="topbar-main navbar p-0">
+                <div class="container-fluid">
+
+                    <!-- Logo container-->
+                    <div class="topbar-left">
+                        <!-- Text Logo -->
+                        <!--<a href="index.html" class="logo">-->
+                            <!--Zircos-->
+                        <!--</a>-->
+                        <!-- Image Logo -->
+                        <a href="dashboard.html" class="logo">
+                            <img src="assets/img-new/s-logo.png" alt="" height="50">
+                        </a>
+
+                    </div>
+                    <!-- End Logo container-->
+                    <div>
+                        <ol class="breadcrumb float-right p-0 m-0" onclick="showMenu();">
+                                <li class="breadcrumb-item active">
+                                    <h2><i class="fas fa-bars"></i></h2>
+                                </li>
+                            </ol>
+                    </div>
+
+                </div> <!-- end container-fluid -->
+            </div>
+            <!-- end topbar-main -->
+
+            <!-- Refferal -->
+            <div class="ref--link">
+            </div>
+            <div class="back--icon"><i class="fas fa-atom"></i> <i class="fas fa-bezier-curve"></i> <i class="fas fa-atom"></i></div>
+            <div class="copy--ref">
+                <h4>Refferal</h4>
+            </div>            
+            <div class="ref--inp"> <i class="fas fa-caret-right"></i> <a class="the--link">https://Kfcmining.com/sign-up?ref=Billgate</a> <i class="fas fa-caret-left"></i> </div>            
+            <!-- end of refferal -->
+        </header>
+        <!-- End Navigation Bar-->
+
+        <div class="wrapper">
+            <div class="container-fluid">
+
+                <!-- Page-Title -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-title-box">
+                            <h4 class="page-title">Withdraws</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title end breadcrumb -->
+
+
+                <div class="row mg-b">
+
+                    <div class="col-xl-3 col-sm-6">
+                        <div class="card-box widget-box-one animated fadeInDown delay-1s">
+                            <div class="decor--bottom"></div>
+                            <div class="decor--top"></div>
+                            <i class="fas fa-wallet widget-one-icon"></i>
+                            <div class="wigdet-one-content">
+                                <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="Statistics">My Wallet</p>
+                                <h2>34578 <small></small></h2>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-xl-3 col-sm-6">
+                        <div class="card-box widget-box-one animated fadeInDown delay-1s">
+                            <div class="decor--bottom"></div>
+                            <div class="decor--top"></div>
+                            <i class="fas fa-piggy-bank widget-one-icon"></i>
+                            <div class="wigdet-one-content">
+                                <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="User Today">Daily Profit</p>
+                                <h2>895 <small></small></h2>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-xl-3 col-sm-6">
+                        <div class="card-box widget-box-one animated fadeInDown delay-1s">
+                            <div class="decor--bottom"></div>
+                            <div class="decor--top"></div>                   
+                            <i class="fas fa-hand-holding-usd widget-one-icon"></i>
+                            <div class="wigdet-one-content">
+                                <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="User This Month">My Bonus</p>
+                                <h2>52410 <small></small></h2>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-xl-3 col-sm-6">
+                        <div class="card-box widget-box-one animated fadeInDown delay-1s">
+                            <div class="decor--bottom"></div>
+                            <div class="decor--top"></div>
+                            <i class="fas fa-landmark widget-one-icon"></i>
+                            <div class="wigdet-one-content">
+                                <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="Request Per Minute">KFC Wallet</p>
+                                <h2>652 <small></small></h2>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+
+                </div>
+                <!-- end row -->
+
+                <div class="row mg-b">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animated fadeInLeft delay-1s">
+                        <div class="card-box withdraw--content">
+                            <div class="trape--left"></div>
+                            <div class="trape--right"></div>
+                            <div class="title--zone">
+                                <h5>Choose a payment system</h5>
+                            </div>
+                            <div id="carousel">
+                              <img class="cloud9-item" src="assets/img-new/kfc-coin.png" alt="Item #1">
+                              <img class="cloud9-item" src="assets/img-new/eth-coin.png" alt="Item #2">
+                              <img class="cloud9-item" src="assets/img-new/btc-coin.png" alt="Item #3">
+                            </div>
+                            <div class="coin--chosen"><h3>Bitcoin</h3></div>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animated fadeInRight delay-1s">
+                        <div class="card-box withdraw--content--2">
+                            <div class="logo--profile wallet--info withdraw--info"></div>   
+                            <div class="row profile--tab">
+                                <div class="col-5">
+                                    <div class="title--withdraw"><h2>Wallet</h2></div>
+                                    <div class="sub--title--withdraw"><h4>Information</h4></div>     
+                                </div>
+                                <div class="col-7 withdraw--marg">
+                                    <!-- select box -->
+                                    <div class="dropdown--z" id="levelChosen">
+                                        <div class="select">
+                                          <span>BEGINNER</span>
+                                          <i class="fa fa-chevron-left"></i>
+                                        </div>
+                                        <input type="hidden" name="gender">
+                                        <ul class="dropdown-menu">
+                                          <li>My Wallet</li>
+                                          <li>Daily Profit</li>
+                                          <li>Commission</li>
+                                          <li>KFC Wallet</li>
+                                        </ul>
+                                    </div>
+                                    <!-- select box -->
+                                    <input class="amount--field" type="number" name="" placeholder="Amount">
+                                    <input class="amount--field" type="text" name="" placeholder="Address Wallet">
+                                    <input class="amount--field" type="text" name="" placeholder="Google Authenticator">
+                                    <button class="save--change">Withdraw</button>
+                                </div>
+                            </div>                            
+                        </div> 
+                    </div>
+                </div>
+                <!-- end row -->
+
+                <div class="row mg-b">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 animated flipInX delay-1s">
+                        <div class="card-box spec--height my--history--content">
+                            <div class="white--top--bar"></div>
+                            <div class="white--bottom--bar"></div>
+                            <div class="show--price--tab">
+                                <div class="back--icon--tab1"><i class="fab fa-battle-net"></i></div>
+                                <div class="big--title"><h2>History Withdraw</h2></div>
+                                <table id="hisWithdraw" class="display responsive nowrap" style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <td><i class="fas fa-id-card-alt"></i> Id</td>
+                                            <td><i class="fas fa-badge-dollar"></i> Amount</td>
+                                            <td><i class="fas fa-list-ul"></i> Type</td>
+                                            <td><i class="fas fa-stopwatch"></i> Time</td>
+                                            <td><i class="fas fa-address-card"></i> Address</td>
+                                            <td><i class="fas fa-sack-dollar"></i> Wallet</td>
+                                            <td><i class="fas fa-box-check"></i> Status</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                        <tr>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                            <td>asda516351sads165</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- End container-fluid -->
+
+            <!-- Footer -->
+            <footer class="footer text-right">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            Copyright 2019 © All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End Footer -->
+
+        </div>
+        <!-- End wrapper -->
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/detect.js"></script>
+        <script src="assets/js/fastclick.js"></script>
+        <script src="assets/js/jquery.blockUI.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/jquery.slimscroll.js"></script>
+        <script src="assets/js/jquery.scrollTo.min.js"></script>
+
+        <!-- Dashboard init -->
+        <!-- <script src="assets/pages/jquery.dashboard.js"></script> -->
+
+        <!-- App js -->
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script> 
+
+        <script type="text/javascript" src="assets/c9carousel/jquery.cloud9carousel.js"></script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/moment.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/daterangepicker.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+        <script type="text/javascript" src="assets/js/fix.js"></script>
+        <script type="text/javascript">
+              /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+              particlesJS.load('particles-js', 'particles.json', function() {
+                console.log('callback - particles.js config loaded');
+              });
+        </script>
+
+        <script type="text/javascript">
+            function showMenu() {
+                Swal.fire({
+                  titleText: "KFC Menu",
+                  html:
+                    '<div class="trapezium--left"></div>'+
+                    '<div class="trapezium--right"></div>'+
+                    '<table class="table--menu">'+
+                        '<tr>'+
+                            '<td><a href="dashboard.html"><h5><i class="fas fa-compass"></i></h5><span>Dashboard</span></a></td>'+
+                            '<td><a href="mywallet.html"><h5><i class="fab fa-usps"></i></h5><span>My Wallet</span></a></td>'+
+                        '</tr>'+
+                        '<tr>'+
+                            '<td><a href="investment.html"><h5><i class="fas fa-money-check-alt"></i></h5><span>Investment</span></a></td>'+
+                            '<td><a href="profile.html"><h5><i class="fas fa-id-badge"></i></h5><span>Profile</span></a></td>'+
+                        '</tr>'+
+                        '<tr>'+
+                            '<td><a href=""withdraw.html><h5><i class="fas fa-clipboard-check"></i></h5><span>Withdraws</span></a></td>'+
+                            '<td><a href="dir-refferal.html"><h5><i class="fas fa-diagnoses"></i></h5><span>Direct Referral</span></a></td>'+
+                        '</tr>'+
+                        '<tr>'+
+                            '<td><a href="bi-tree.html"><h5><i class="fab fa-connectdevelop"></i></h5><span>Binary Tree</span></a></td>'+
+                            '<td><a href="commission.html"><h5><i class="fas fa-badge-dollar"></i></h5><span>Commission</span></a></td>'+
+                        '</tr>'+
+                        '<tr>'+
+                            '<td><a href="statistic.html"><h5><i class="fas fa-analytics"></i></h5><span>Statistic</span><a></td>'+
+                            '<td><a href="token-his.html"><h5><i class="fas fa-coins"></i></h5><span>Token History</span></a></td>'+
+                        '</tr>'+
+                        '<tr>'+
+                            '<td><a href="user-ad.html"><h5><i class="fas fa-users"></i></h5><span>Members</span><a></td>'+
+                            '<td><a href="wallet-ad.html"><h5><i class="fas fa-wallet"></i></h5><span>Wallet Management</span><a></td>'+
+                        '</tr>'+
+                        '<tr>'+
+                            '<td><a href="investment-ad.html"><h5><i class="fas fa-file-invoice-dollar"></i></h5><span>Investment Management</span></a></td>'+
+                            '<td><a href="price-token.html"><h5><i class="fas fa-chart-line"></i></h5><span>Price Token</span><a></td>'+
+                        '</tr>'+
+                        '<tr>'+
+                            '<td><a href="login.html"><h5><i class="fas fa-sign-in-alt"></i></h5><span>Login</span></a></td>'+
+                        '</tr>'+
+                    '</table>'
+                })
+            }
+            showRegister();
+            function showRegister() {
+                Swal.fire({
+                  titleText: "Register",
+                  html:
+                    '<div class="trapezium--left"></div>'+
+                    '<div class="trapezium--right"></div>'+
+                    '<div class="form--tree--container">'+
+                        '<div>'+
+                            '<button class="circle--branch">Left</button><button class="circle--branch">Right</button>'+
+                        '</div>'+
+                        '<div class="input--area">'+
+                            '<input type="" name="" placeholder="Username">'+
+                            '<input type="" name="" placeholder="Sponsor">'+
+                            '<input type="" name="" placeholder="Presenter">'+
+                            '<input type="" name="" placeholder="Password">'+
+                            '<input type="" name="" placeholder="Confirm Password">'+
+                            '<input type="" name="" placeholder="Email">'+
+                        '</div>'+
+                    '</div>'
+                })
+            } 
+        </script>
+        
+    </body>
+</html>

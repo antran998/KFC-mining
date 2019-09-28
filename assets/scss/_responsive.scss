@@ -1,0 +1,211 @@
+
+
+/*
+Template Name: Zircos - Bootstrap 4 Admin Dashboard
+Author: CoderThemes
+Email: coderthemes@gmail.com
+File: Responsive
+*/
+
+
+@media (max-width: 1023px) {
+  .button-menu-mobile {
+    display: block !important;
+  }
+  .email-msg {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .content-page .content {
+    margin-top: 75px;
+  }
+
+  .content-page {
+    margin-left: 0px !important;
+  }
+  .footer {
+    left: 0px !important;
+  }
+
+  .mobile-sidebar {
+    left: 0px;
+  }
+
+  .mobile-content {
+    left: 250px;
+    right: -250px;
+  }
+
+  .wrapper-page {
+    width: 90%;
+  }
+
+  .dataTables_wrapper {
+    .col-6 {
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  div{
+    &#datatable-buttons_info {
+      float: none;
+    }
+  }
+  .ms-container {
+    width: 100%;
+  }
+  .m-t-sm-50 {
+    margin-top: 50px !important;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .dropdown-lg {
+    width: 200px !important;
+  }
+  .user-box {
+    float: right;
+  }
+  .dataTables_length {
+    float: none;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .topbar-main{
+    .container-fluid{
+      display: block;
+    }
+  }
+  .button-menu-mobile {
+    display: block;
+  }
+
+  .search-bar {
+    display: none !important;
+  }
+  .arrow-dropdown-menu.arrow-menu-right {
+    &:before {
+      left: auto;
+      right: 35px;
+    }
+    &:after {
+      left: auto;
+      right: 36px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .hide-phone, .topbar-left {
+    display: none !important;
+  }
+}
+
+
+/* Container-alt */
+@media (min-width: 768px) {
+  .container-alt {
+    width: 750px;
+  }
+
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 2px solid $light;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-alt {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-alt {
+    width: 1170px;
+  }
+}
+@media (max-width: 419px) {
+  .hidden-xxs {
+    display: none;
+  }
+  .topbar-left {
+    width: 70px !important;
+  }
+  .logo {
+    .icon-c-logo {
+      display: inline-block !important;
+      line-height: 58px !important;
+    }
+    span {
+      display: none !important;
+    }
+  }
+  .wrapper-page .logo {
+    span {
+      display: inline-block !important;
+    }
+  }
+  .content-page {
+    margin-left: 70px;
+  }
+
+  .page-title {
+    font-size: 15px;
+    max-width: 250px;
+    white-space: nowrap;
+  }
+
+  .editable-responsive {
+    overflow-x: auto;
+  }
+
+  .profile-info-name img {
+    float: none;
+    margin: 0px auto;
+    margin-bottom: 20px;
+  }
+  div.hopscotch-bubble .hopscotch-bubble-container {
+    max-width: 180px;
+  }
+  .page-title-box .breadcrumb {
+    display: none;
+  }
+
+  
+  .user-box .dropdown-menu {
+    margin-right: 0 !important;
+  }
+
+  .dropdown-lg {
+    width: 160px !important;
+  }
+  .user-list .user-list-item .icon,.user-list .user-list-item .avatar {
+    display: none;
+  }
+  .user-list .user-list-item .user-desc {
+    margin-left: 0;
+  }
+
+  .mails {
+    .table-detail {
+      display: block;
+    }
+  }
+
+}
